@@ -25,7 +25,7 @@ ort:
   - type: File
     id: CurationsID
     options:
-      path: '/curations.yml'
+      path: 'curations.yml'
       mustExist: true
 
   severeIssueThreshold: ERROR
