@@ -23,9 +23,9 @@ ort:
   # order: The provider with the highest priority is applied last, so it can overwrite any previously applied curations.
   packageCurationProviders:
   - type: File
-    id: CurationsID
+    id: FileCurationsFile
     options:
-      path: './curations.yml'
+      path: '/curations.yml'
       mustExist: true
 
   severeIssueThreshold: ERROR
