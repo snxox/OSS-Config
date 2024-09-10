@@ -62,6 +62,8 @@ ort:
       clearlyDefined:
         serverUrl: 'https://api.clearlydefined.io'
 
+    storageReaders: ["clearlyDefined"]
+
     ##config:
       # A map from scanner plugin types to the plugin configuration.
       ##ScanCode:
