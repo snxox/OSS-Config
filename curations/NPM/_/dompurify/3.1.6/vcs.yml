@@ -1,0 +1,3 @@
+- id: "NPM::dompurify:3.1.6"
+    curations:
+      concluded_license: "Apache-2.0"
