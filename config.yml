@@ -22,10 +22,10 @@ ort:
   # Package curation providers are listed from highest to lowest priority. Technically, they are applied in reverse
   # order: The provider with the highest priority is applied last, so it can overwrite any previously applied curations.
   packageCurationProviders:
-  - type: Dir
+  - type: File
     id: CurationsID
     options:
-      path: '/curations/'
+      path: '/curations.yml'
       mustExist: true
 
   severeIssueThreshold: ERROR
